@@ -1,0 +1,35 @@
+body {
+  background-color:rgb(107, 107, 206);
+}
+
+h1 {
+  color: red;
+}
+
+body ul li a {
+  color: white;
+}
+
+ul li a {
+  color: green;
+}
+
+li a {
+  color: white;
+}
+
+a {
+  color: pink;
+}
+
+
+p {
+  color: green;
+}
+
+ul {
+  border: 20px solid white;
+  background-color: black;
+  height: 180px;
+  width: 200px;
+}
