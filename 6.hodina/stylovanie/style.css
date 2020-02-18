@@ -1,0 +1,81 @@
+/* pouzivame na zvyraznenie elementov */
+/* * {
+  outline: 3px solid black;
+} */
+
+
+/* body,html {
+  margin: 0;
+} pouzivame na vymazanie marginu*/
+
+body{
+  color: #ffff;
+  background-color: red;
+  text-align: center;
+  padding: 25px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* pouz. pre safari a chrome */
+  -webkit-font-smoothing: antialiased; 
+} 
+
+h1 {
+  font-size: 100px;
+}
+
+.green {
+color: greenyellow;
+}
+h2{
+  display: none;
+}
+
+.tabulka {
+  color: #333;
+  background:rgb(102, 102, 141);
+  width: 300px;
+  height: 75px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px dotted #ccc;
+  overflow: scroll;
+  
+
+}
+
+p{
+  line-height: 22px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+a{
+  background: #ffff;
+  color: red;
+  text-decoration: none;
+  /* hore-vpravo-dole-vlavo */
+  padding: 2px 6px 3px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+}
+
+/* hover znamena ak je mys nad tymto elementom */
+a:hover {
+background: blue;
+}
+
+small {
+font-weight: bold;
+color: green;
+display: block;
+}
+
+.text-left {
+text-align: left;
+}
+
+.left {
+  text-align: left;
+}

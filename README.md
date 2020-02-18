@@ -64,3 +64,26 @@ input - vstupne udaje (type="submit"-potvrdit)
 
 textarea- element def. viacriadkove vstupne pole ( cols-Atribút urcuje viditelnú sírku textovej oblasti, rows-Atribút urcuje viditelny pocet riadkov v textovej oblasti)
 select- def. rozbalovaci zoznam (<option> - def.moznost,ktoru mozeme vybrat, atribut selected vyberie ako prvu nasu zvolenu moznost)
+
+6.hodina
+border: solid, dotted, dashed, double
+padding: 6px(hore+dole),12px(lavo+pravo)
+cursor:pointer; -ukaze klikajuci prst 
+text-align - plati iba pre inline elementy {ktore su v block lvl elem.}
+inline elementy- neda sa menit velkost(akceptuju margin lavy a pravy,horny a spodny nie) display:inline-block ->dokazeme s nim menit vysku a sirku v inlinelementoch
+pridavanie farby pomocou: #,alebo nazvu, alebo rgb + rgba( pridame alfa kanal= priesvitnost, od 0-1, stare prehliadace to nezobrazia, tak piseme rgb aj rgba (255, 45, 32, 0.5); ) coloradobe.com
+
+google fonts (sk/cz latin)
+tag:hover {color:#fff}; = kurzor nad elementom -> zmeni farbu
+font-weight: (100-900);
+text-transform: (uppercase-velke pismo, lowercase-male pismo, capitalize- kazde zaciatocne pismeno velke)
+font-style:
+font-variant: small-caps; - velke pismena vo velkosti malych pismen
+text-indent: - na odsadenie textu
+text-decoration:
+letter/word-spacing:
+text-shadow: 3px 2px 0px #fff   tien pod pismom+farba
+text-align
+
+.class > h3 -> pouzije priameho potomka 
+..-ist von z adresara
